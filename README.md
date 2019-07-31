@@ -11,3 +11,9 @@ Tools Installer MasKawer
 
 - t.me/TroubleMaker_Team
 - t.me/ShakeTea
+
+Tutorial
+- git clone https://github.com/MasKawer/installer
+- masuk ke directory installer
+- sh on.sh
+- pilih Tools, akan otomatis mendownload pkg yang diperlukan
