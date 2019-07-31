@@ -109,8 +109,7 @@ do
 
 # Localhost Online
 case $pil in
-1) cd ../
-clear
+1) 
 git clone https://github.com/MasKawer/online
 pkg install bash
 pkg install python
@@ -125,9 +124,7 @@ bash /data/data/com.termux/files/home/online/localhost/ on.sh
 ;;
 
 # Bash Encryptor
-2) cd ../
-clear
-git clone https://github.com/MasKawer/bash-encrypt
+2) git clone https://github.com/MasKawer/bash-encrypt
 pkg install bash
 pkg install python
 pkg install python2
@@ -141,9 +138,7 @@ python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
 ;;
 
 # Localhost Online
-3) cd ../
-clear
-git clone https://github.com/MasKawer/tombol-termux.git
+3) git clone https://github.com/MasKawer/tombol-termux.git
 pkg install bash
 pkg install python
 pkg install python2
@@ -157,9 +152,7 @@ python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
 ;;
 
 #Tools-X
-4) cd ../
-clear
-git clone https://github.com/Rajkumrdusad/Tool-X
+4) git clone https://github.com/Rajkumrdusad/Tool-X
 pkg install bash
 pkg install python
 pkg install python2
@@ -174,16 +167,14 @@ bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 
 #Lazymux
 
-5) cd ../
-clear
-git clone https://github.com/Gameye98/Lazymux
+5) git clone https://github.com/Gameye98/Lazymux
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
 echo "${y} cd Lazymux"
-echo "${y} python2 lazymux.py"
+echo "${y} python lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
 python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
 
