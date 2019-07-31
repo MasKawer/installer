@@ -249,7 +249,8 @@ exit
 
 ;;
 
-7) cd /data/data/com.termux/files/home/
+7) cd /data/data/com.termux/files/home/      | lolcat 
+rm -rf installer                             | lolcat 
 git clone https://github.com/MasKawer/installer | lolcat 
 pkg apt update && apt upgrade                | lolcat 
 echo "-----------------------------" | lolcat           
