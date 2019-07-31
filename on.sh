@@ -1,6 +1,7 @@
 #!/bin/bash
 #Jangan Recode Goblok
-#Silahkan Mampir https://github.com/MasKawer
+#Silahkan Mampir https://github.com/MasKawer/installer
+#Credit : MasKawer || CilacapCyberCrack
 
 trap 'printf "\n";stop;exit 1' 2
 dependencies() {
@@ -109,8 +110,8 @@ do
 	echo "-----------------------------" | lolcat
 	echo $r "8. keluar${endc}";
 	echo ""
-	echo "╭─Mr.KAWER" |lolcat
-	read -p "╰─#" pil;
+	echo "╭─Mr.KAWER | CilacapCyberCrack" |lolcat
+	read -p "╰─@ " pil;
 
 # Localhost Online
 case $pil in
