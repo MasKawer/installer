@@ -99,13 +99,15 @@ do
 	echo "-----------------------------" | lolcat
 	echo $g "3. Tombol Termux${endc}";   
 	echo "-----------------------------" | lolcat
-	echo $c "4. Tool-X";                 
+	echo $m "4. Tool-X";                 
 	echo "-----------------------------" | lolcat
 	echo $c "5. Lazymux";
 	echo "-----------------------------" | lolcat
 	echo $c "6. Dark FB Mod MAS KAWER";
 	echo "-----------------------------" | lolcat
-	echo $r "7. keluar${endc}";
+	echo $g "7. Update";
+	echo "-----------------------------" | lolcat
+	echo $r "8. keluar${endc}";
 	echo ""
 	echo "╭─Mr.KAWER" |lolcat
 	read -p "╰─#" pil;
@@ -143,6 +145,10 @@ echo "-----------------------------" | lolcat
 pkg install python2                              | lolcat
 echo "-----------------------------" | lolcat
 pip2 install --upgrade pip                       | lolcat
+echo "-----------------------------" | lolcat
+pkg install nodejs                               | lolcat
+echo "-----------------------------" | lolcat
+npm install -g bash-obfuscate                    | lolcat
 echo "-----------------------------" | lolcat
 echo -e "${y} Install Bash Encrypt Tools..."     | lolcat
 echo "-----------------------------" | lolcat
@@ -243,7 +249,28 @@ exit
 
 ;;
 
-7) echo "created by : MAS KAWER"             | lolcat 
+7) cd /data/data/com.termux/files/home/
+git clone https://github.com/MasKawer/installer | lolcat 
+pkg apt update && apt upgrade                | lolcat 
+echo "-----------------------------" | lolcat           
+pkg install python                           | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                          | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                   | lolcat
+echo "-----------------------------" | lolcat
+echo "${y} Installer Sedang Update..."       | lolcat
+echo "-----------------------------" | lolcat
+echo "${y} cd installer"                     | lolcat
+echo "-----------------------------" | lolcat
+echo "${y} sh on.sh"                         | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
+exit
+
+;;
+
+8) echo "created by : MAS KAWER"             | lolcat 
 exit
 ;;
 
