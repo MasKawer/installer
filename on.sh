@@ -51,7 +51,7 @@ stop() {
 }
 
 #Variable Warna
-b="\033[1m"
+b="\033[3m"
 u="\033[4m"
 bl="\033[30m"
 r="\033[31m"
@@ -94,19 +94,14 @@ do
 	echo""
 	echo $b "1. PORT FORDWADING${enda}"; 
 	echo "-----------------------------" | lolcat
-	sleep 1
 	echo $r "2. Bash Encrypt${endc}";    
 	echo "-----------------------------" | lolcat
-	sleep 1
 	echo $g "3. Tombol Termux${endc}";   
 	echo "-----------------------------" | lolcat
-	sleep 1      
 	echo $c "4. Tool-X";                 
 	echo "-----------------------------" | lolcat
-	sleep 1
 	echo $c "5. Lazymux";
 	echo "-----------------------------" | lolcat
-	sleep 1
 	echo $r "6. keluar${endc}";
 	echo ""
 	echo "╭─Mr.KAWER" |lolcat
@@ -118,7 +113,6 @@ case $pil in
 pkg install bash
 pkg install python
 pkg install python2
-pkg install pip
 pip2 install --upgrade pip
 echo -e "${y} Install PORT FORDWADING Tools..."
 echo -e "${y} cd localhost"
@@ -128,12 +122,11 @@ bash /data/data/com.termux/files/home/online/localhost/ on.sh
 
 ;;
 
-# Localhost Online
+# Bash Encryptor
 2) git clone https://github.com/MasKawer/bash-encrypt
 pkg install bash
 pkg install python
 pkg install python2
-pkg install pip
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
 echo -e "${y} cd Encript-Shell-Bash"
@@ -148,7 +141,6 @@ python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
 pkg install bash
 pkg install python
 pkg install python2
-pkg install pip
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
 echo -e "${y} cd localhost"
@@ -163,7 +155,6 @@ python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
 pkg install bash
 pkg install python
 pkg install python2
-pkg install pip
 pip2 install --upgrade pip
 echo "${y} Installer Tool-X..."
 echo "${y} cd Tool-X"
@@ -179,7 +170,6 @@ bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 pkg install bash
 pkg install python
 pkg install python2
-pkg install pip
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
 echo "${y} cd Lazymux"
