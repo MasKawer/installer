@@ -232,8 +232,6 @@ pkg install python2                          | lolcat
 echo "-----------------------------" | lolcat
 pip2 install --upgrade pip                   | lolcat
 echo "-----------------------------" | lolcat
-pip2 install -r requirements                 | lolcat
-echo "-----------------------------" | lolcat
 echo "${y} Installer dark-fb Mod MasKawer..."| lolcat
 echo "-----------------------------" | lolcat
 echo "${y} cd darkfb"                        | lolcat
