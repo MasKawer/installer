@@ -57,9 +57,9 @@ red="\033[1;31m"
 figlet MAS KAWER | lolcat
 
 echo"-----------------------------------------------------------------------------------------"
-echo"Tools    : Installer Tools MasKawer"     | lolcat
-echo"Credit   : MasKawer | CilacapCyberCrack" | lolcat
-echo"Github   : https://github.com/MasKawer"  | lolcat
+echo"Tools    : Installer Tools MasKawer        $white                                               "| lolcat
+echo"Credit   : MasKawer | CilacapCyberCrack    $white                                              "| lolcat
+echo"Github   : https://github.com/MasKawer     $white                                              "| lolcat
 echo"-----------------------------------------------------------------------------------------"
 ###########################################################
 # CTRL + C
@@ -185,6 +185,8 @@ exit
 
 *) echo "sorry, pilihan yang kamu cari tidak tersedia" 
 sleep 1
+esac
+done
 done
 
 banner() {
