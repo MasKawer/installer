@@ -69,9 +69,9 @@ red="\033[1;31m"
 figlet MAS KAWER | lolcat
 
 echo"-----------------------------------------------------------------------------------------"
-echo"Tools    : Installer Tools MasKawer        $white                                               "| lolcat
-echo"Credit   : MasKawer | CilacapCyberCrack    $white                                              "| lolcat
-echo"Github   : https://github.com/MasKawer     $white                                              "| lolcat
+echo"Tools    : Installer Tools MasKawer        $white                                        "| lolcat
+echo"Credit   : MasKawer | CilacapCyberCrack    $white                                        "| lolcat
+echo"Github   : https://github.com/MasKawer     $white                                        "| lolcat
 echo"-----------------------------------------------------------------------------------------"
 ###########################################################
 # CTRL + C
@@ -100,15 +100,13 @@ do
 	sleep 1
 	echo $g "3. Tombol Termux${endc}";   
 	echo "-----------------------------" | lolcat
-	sleep 1
-	echo $w "Tools Termux Lainnya";      
-	echo "-----------------------------" | lolcat
-	sleep 1
+	sleep 1      
 	echo $c "4. Tool-X";                 
 	echo "-----------------------------" | lolcat
 	sleep 1
 	echo $c "5. Lazymux";
 	echo "-----------------------------" | lolcat
+	sleep 1
 	echo $r "6. keluar${endc}";
 	echo ""
 	echo "╭─Mr.KAWER" |lolcat
@@ -200,23 +198,3 @@ sleep 1
 esac
 done
 done
-
-banner() {
-
-	printf "\e[1;93m  _______ _______ _______    _       _______         _______ _______ \e[0m\n"
-	printf "\e[1;93m (       |  ___  |  ____ \  | \    /(  ___  )\     /(  ____ (  ____ )\e[0m\n"
-	printf "\e[1;93m | () () | (   ) | (    \/  |  \  / / (   ) | )   ( | (    \/ (    )|\e[0m\n"
-	printf "\e[1;93m | || || | (___) | (_____   |  (_/ /| (___) | | _ | | (__   | (____)|\e[0m\n"
-	printf "\e[1;93m | |(_)| |  ___  (_____  )  |   _ ( |  ___  | |( )| |  __)  |     __)\e[0m\n"
-	printf "\e[1;93m | |   | | (   ) |     ) |  |  ( \ \| (   ) | || || | (     | (\ (   2019\e[0m\n"
-	printf "\e[1;93m | )   ( | )   ( /\____) |  |  /  \ \ )   ( | () () | (____/\ ) \ \__\e[0m\n"
-	printf "\e[1;93m |/     \|/      \_______)  |_/    \//     \(_______|_______//   \__/v1.0\e[0m\n"
-
-	printf "\n"
-	printf "\e[1;93m :::\e[0m\e[1;77m Thanks For: @cilacapcybercrack\e[0m\n"
-	printf "\e[1;93m :::\e[0m\e[1;77m Coded by: @maskawer\e[0m\n"
-
-}
-banner
-dependencies
-start1
