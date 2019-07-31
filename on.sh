@@ -115,11 +115,10 @@ pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
-echo -e "${y} Install PORT FORDWADING Tools..."
-echo -e "${y} cd localhost"
-echo -e "${y} bash on.sh"
-cd /data/data/com.termux/files/home/online/localhost
-bash /data/data/com.termux/files/home/online/localhost/ on.sh
+echo -e "${y} Install PORT FORDWADING Tools..."  | lolcat
+echo -e "${y} cd localhost"                      | lolcat
+echo -e "${y} bash on.sh"                        | lolcat
+exit
 
 ;;
 
@@ -129,11 +128,10 @@ pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
-echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} cd Encript-Shell-Bash"
-echo -e "${y} bash encript.sh"
-cd /data/data/com.termux/files/home/bash-encrypt
-python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
+echo -e "${y} Install Bash Encrypt Tools..."    | lolcat
+echo -e "${y} cd Encript-Shell-Bash"            | lolcat
+echo -e "${y} bash encript.sh"                  | lolcat
+exit
 
 ;;
 
@@ -143,12 +141,11 @@ pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
-echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} cd localhost"
-echo -e "${y} bash on.sh"
-cd /data/data/com.termux/files/home/tombol-termux
-python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
-
+echo -e "${y} Install Bash Encrypt Tools..."   | lolcat
+echo -e "${y} cd localhost"                    | lolcat
+echo -e "${y} bash on.sh"                      | lolcat
+exit
+exit
 ;;
 
 #Tools-X
@@ -157,11 +154,10 @@ pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
-echo "${y} Installer Tool-X..."
-echo "${y} cd Tool-X"
-echo "${y} sh install.aex"
-cd /data/data/com.termux/files/home/Tool-X
-bash /data/data/com.termux/files/home/Tool-X/sh install.aex
+echo "${y} Installer Tool-X..."               | lolcat
+echo "${y} cd Tool-X"                         | lolcat
+echo "${y} sh install.aex"                    | lolcat
+exit
 
 ;;
 
@@ -172,20 +168,18 @@ pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
-echo "${y} Installer Lazymux..."
+echo "${y} Installer Lazymux..."             | lolcat
+echo "${y} cd Lazymux"                       | lolcat
+echo "${y} python2 lazymux.py"               | lolcat
 exit
-echo "${y} cd Lazymux"
-echo "${y} python lazymux.py"
-cd /data/data/com.termux/files/home/Lazymux/
-python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
 
 ;;
 
-6) echo "created by : MAS KAWER" | lolcat 
+6) echo "created by : MAS KAWER"             | lolcat 
 exit
 ;;
 
-*) echo "sorry, pilihan yang kamu cari tidak tersedia" 
+*) echo "sorry, pilihan yang kamu cari tidak tersedia" | lolcat
 sleep 1
 esac
 done
