@@ -91,7 +91,7 @@ ctrl_c() {
 }
 
 lagi=1
-while [ $lagi -lt 7 ];
+while [ $lagi -lt 8 ];
 do
 	echo""
 	echo $bu "1. PORT FORDWADING${enda}"; 
