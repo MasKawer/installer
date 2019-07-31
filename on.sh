@@ -222,7 +222,7 @@ exit
 
 #DARK FB MOD MASKAWER
 
-6) git clone https://github.com/MasKawer/dark-fb | lolcat 
+6) git clone https://github.com/MasKawer/darkfb | lolcat 
 pkg install bash                             | lolcat 
 echo "-----------------------------" | lolcat
 pkg install python                           | lolcat
