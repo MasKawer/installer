@@ -251,7 +251,8 @@ exit
 ;;
 
 7) cd /data/data/com.termux/files/home/      | lolcat 
-rm -rf installer                             | lolcat 
+sleep 1
+rm -rf /data/data/com.termux/files/home/installer                             | lolcat 
 sleep 2
 git clone https://github.com/MasKawer/installer | lolcat 
 pkg apt update && apt upgrade                | lolcat 
