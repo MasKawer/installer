@@ -2,6 +2,53 @@
 #Jangan Recode Goblok
 #Silahkan Mampir https://github.com/MasKawer
 
+trap 'printf "\n";stop;exit 1' 2
+dependencies() {
+
+	command -v ssh > /dev/null 2>&1 || { echo >&2 "Aku perlu SSH namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v curl > /dev/null 2>&1 || { echo >&2 "Aku perlu CURL namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v bash > /dev/null 2>&1 || { echo >&2 "Aku perlu BASH namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v git > /dev/null 2>&1 || { echo >&2 "Aku perlu git namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v php > /dev/null 2>&1 || { echo >&2 "Aku perlu PHP namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v lolcat > /dev/null 2>&1 || { echo >&2 "Aku perlu lolcat namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v cowsay > /dev/null 2>&1 || { echo >&2 "Aku perlu cowsay namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v figlet > /dev/null 2>&1 || { echo >&2 "Aku perlu figlet namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v python > /dev/null 2>&1 || { echo >&2 "Aku perlu python namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v python2 > /dev/null 2>&1 || { echo >&2 "Aku perlu python2 namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v nodejs > /dev/null 2>&1 || { echo >&2 "Aku perlu nodejs namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v npm install -g bash-obfuscate > /dev/null 2>&1 || { echo >&2 "Aku perlu npm install -g bash-obfuscate namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v npm pip > /dev/null 2>&1 || { echo >&2 "Aku perlu pip namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+	command -v npm mechanize > /dev/null 2>&1 || { echo >&2 "Aku perlu mechanize namun sepertinya tidak terinstall. Tolong Install. Thanks!!."; exit 1; }
+
+}
+
+
+stop() {
+	pkg install bash
+	sleep 1
+	pkg install python
+	sleep 1
+	pkg install python2
+	sleep 1
+	pkg install pip
+	sleep 1
+	pip2 install --upgrade pip
+	sleep 1
+	clear
+}
 
 #Variable Warna
 b="\033[1m"
@@ -44,7 +91,7 @@ ctrl_c() {
 lagi=1
 while [ $lagi -lt 6 ];
 do
-	echo ""
+	echo""
 	echo $b "1. PORT FORDWADING${enda}"; 
 	echo "-----------------------------" | lolcat
 	sleep 1
@@ -136,7 +183,7 @@ pkg install pip
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
 echo "${y} cd Lazymux"
-echo "${y} python lazymux.py"
+echo "${y} python2 lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
 python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
 
