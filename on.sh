@@ -109,13 +109,15 @@ do
 
 # Localhost Online
 case $pil in
-1) git clone https://github.com/MasKawer/online
+1) cd ../
+clear
+git clone https://github.com/MasKawer/online
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install PORT FORDWADING Tools..."
-echo -e "${y} cd ../localhost"
+echo -e "${y} cd localhost"
 echo -e "${y} bash on.sh"
 cd /data/data/com.termux/files/home/online/localhost
 bash /data/data/com.termux/files/home/online/localhost/ on.sh
@@ -123,13 +125,15 @@ bash /data/data/com.termux/files/home/online/localhost/ on.sh
 ;;
 
 # Bash Encryptor
-2) git clone https://github.com/MasKawer/bash-encrypt
+2) cd ../
+clear
+git clone https://github.com/MasKawer/bash-encrypt
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} cd ../Encript-Shell-Bash"
+echo -e "${y} cd Encript-Shell-Bash"
 echo -e "${y} bash encript.sh"
 cd /data/data/com.termux/files/home/bash-encrypt
 python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
@@ -137,13 +141,15 @@ python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
 ;;
 
 # Localhost Online
-3) git clone https://github.com/MasKawer/tombol-termux.git
+3) cd ../
+clear
+git clone https://github.com/MasKawer/tombol-termux.git
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} ../cd localhost"
+echo -e "${y} cd localhost"
 echo -e "${y} bash on.sh"
 cd /data/data/com.termux/files/home/tombol-termux
 python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
@@ -151,13 +157,15 @@ python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
 ;;
 
 #Tools-X
-4) git clone https://github.com/Rajkumrdusad/Tool-X
+4) cd ../
+clear
+git clone https://github.com/Rajkumrdusad/Tool-X
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Tool-X..."
-echo "${y} cd ../Tool-X"
+echo "${y} cd Tool-X"
 echo "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
@@ -166,13 +174,15 @@ bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 
 #Lazymux
 
-5) git clone https://github.com/Gameye98/Lazymux
+5) cd ../
+clear
+git clone https://github.com/Gameye98/Lazymux
 pkg install bash
 pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
-echo "${y} cd ../Lazymux"
+echo "${y} cd Lazymux"
 echo "${y} python2 lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
 python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
