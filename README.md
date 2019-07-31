@@ -10,10 +10,17 @@ Tools Installer MasKawer
 - Join Group Telegram kami
 
 - t.me/TroubleMaker_Team
-- t.me/ShakeTea
+- t.me/ShakeTeam
 
 Tutorial
 - git clone https://github.com/MasKawer/installer
 - masuk ke directory installer
 - sh on.sh
 - pilih Tools, akan otomatis mendownload pkg yang diperlukan
+
+
+Thanks for :
+- Mas Kawer
+- ShakeTeam
+- TroubleMaker_Team
+- CilacapCyberCrack Team ( Big Bos )
