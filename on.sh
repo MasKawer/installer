@@ -173,6 +173,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
+echo "${y} exit"
 echo "${y} cd Lazymux"
 echo "${y} python lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
