@@ -91,7 +91,7 @@ ctrl_c() {
 }
 
 lagi=1
-while [ $lagi -lt 8 ];
+while [ $lagi -lt 7 ];
 do
 	echo""
 	echo $bu "1. PORT FORDWADING${enda}"; 
@@ -106,11 +106,10 @@ do
 	echo "-----------------------------" | lolcat
 	echo $cyan "6. Dark FB Mod MAS KAWER";
 	echo "-----------------------------" | lolcat
-	echo $g "7. Update";
+	echo $g "7. keluar${endc}";
 	echo "-----------------------------" | lolcat
-	echo $r "8. keluar${endc}";
 	echo ""
-	echo "╭─Mr.KAWER | CilacapCyberCrack" |lolcat
+	echo "╭─Mr.KAWER | CilacapCyberCrack"|lolcat
 	read -p "╰─@ " pil;
 
 # Localhost Online
