@@ -21,11 +21,11 @@ red="\033[1;31m"
 
 figlet KAWER | lolcat
 
-echo"-----------------------------------------------------------------------------------------"
-echo"Tools    : Installer Tools MasKawer        $white                                        "| lolcat
-echo"Credit   : MasKawer | CilacapCyberCrack    $white                                        "| lolcat
-echo"Github   : https://github.com/MasKawer     $white                                        "| lolcat
-echo"-----------------------------------------------------------------------------------------"
+echo "-----------------------------------------------------------------------------------------"
+echo "Tools    : Installer Tools MasKawer        $white                                        "| lolcat
+echo "Credit   : MasKawer | CilacapCyberCrack    $white                                        "| lolcat
+echo "Github   : https://github.com/MasKawer     $white                                        "| lolcat
+echo "-----------------------------------------------------------------------------------------"
 ###########################################################
 # CTRL + C
 ###########################################################
@@ -42,9 +42,9 @@ ctrl_c() {
 }
 
 lagi=1
-while [ $lagi -lt 6];
+while [ $lagi -lt 6 ];
 do
-	echo""
+	echo ""
 	echo $b "1. PORT FORDWADING${enda}"; 
 	echo "-----------------------------" | lolcat
 	sleep 1
@@ -67,7 +67,7 @@ do
 
 # Localhost Online
 case $pil in
-	1) git clone https://github.com/MasKawer/online
+1) git clone https://github.com/MasKawer/online
 pkg install bash
 pkg install python
 pkg install python2
