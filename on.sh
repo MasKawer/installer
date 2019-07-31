@@ -115,7 +115,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install PORT FORDWADING Tools..."
-echo -e "${y} cd localhost"
+echo -e "${y} cd ../localhost"
 echo -e "${y} bash on.sh"
 cd /data/data/com.termux/files/home/online/localhost
 bash /data/data/com.termux/files/home/online/localhost/ on.sh
@@ -129,7 +129,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} cd Encript-Shell-Bash"
+echo -e "${y} cd ../Encript-Shell-Bash"
 echo -e "${y} bash encript.sh"
 cd /data/data/com.termux/files/home/bash-encrypt
 python2 /data/data/com.termux/files/home/bash-encrypt/ encript.py
@@ -143,7 +143,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo -e "${y} Install Bash Encrypt Tools..."
-echo -e "${y} cd localhost"
+echo -e "${y} ../cd localhost"
 echo -e "${y} bash on.sh"
 cd /data/data/com.termux/files/home/tombol-termux
 python2 /data/data/com.termux/files/home/tombol-termux/ aktif.py
@@ -157,7 +157,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Tool-X..."
-echo "${y} cd Tool-X"
+echo "${y} cd ../Tool-X"
 echo "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
@@ -172,7 +172,7 @@ pkg install python
 pkg install python2
 pip2 install --upgrade pip
 echo "${y} Installer Lazymux..."
-echo "${y} cd Lazymux"
+echo "${y} cd ../Lazymux"
 echo "${y} python2 lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
 python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
