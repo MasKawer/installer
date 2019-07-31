@@ -184,5 +184,25 @@ exit
 ;;
 
 *) echo "sorry, pilihan yang kamu cari tidak tersedia" 
-esac  
-clear
+sleep 1
+done
+
+banner() {
+
+printf "\e[1;93m  _______ _______ _______    _       _______         _______ _______ \e[0m\n"
+printf "\e[1;93m (       |  ___  |  ____ \  | \    /(  ___  )\     /(  ____ (  ____ )\e[0m\n"
+printf "\e[1;93m | () () | (   ) | (    \/  |  \  / / (   ) | )   ( | (    \/ (    )|\e[0m\n"
+printf "\e[1;93m | || || | (___) | (_____   |  (_/ /| (___) | | _ | | (__   | (____)|\e[0m\n"
+printf "\e[1;93m | |(_)| |  ___  (_____  )  |   _ ( |  ___  | |( )| |  __)  |     __)\e[0m\n"
+printf "\e[1;93m | |   | | (   ) |     ) |  |  ( \ \| (   ) | || || | (     | (\ (   2019\e[0m\n"
+printf "\e[1;93m | )   ( | )   ( /\____) |  |  /  \ \ )   ( | () () | (____/\ ) \ \__\e[0m\n"
+printf "\e[1;93m |/     \|/      \_______)  |_/    \//     \(_______|_______//   \__/v1.0\e[0m\n"
+                                                                    
+printf "\n"
+printf "\e[1;93m :::\e[0m\e[1;77m Thanks For: @cilacapcybercrack\e[0m\n"
+printf "\e[1;93m :::\e[0m\e[1;77m Coded by: @maskawer\e[0m\n"
+
+}
+banner
+dependencies
+start1
