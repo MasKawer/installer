@@ -74,6 +74,9 @@ echo "Tools    : Installer Tools MasKawer        $white                         
 echo "Credit   : MasKawer | CilacapCyberCrack    $white                                        "| lolcat
 echo "Github   : https://github.com/MasKawer     $white                                        "| lolcat
 echo "Version  : V1.2                            $white                                        "| lolcat
+echo "Update   : Setiap Hari Minggu              $white                                        "| lolcat
+echo "Group I  : t.me/TroubleMaker_Team          $white                                        "| lolcat
+echo "Group II : t.me/ShakeTeam                  $white                                        "| lolcat
 echo "-----------------------------------------------------------------------------------------"
 ###########################################################
 # CTRL + C
