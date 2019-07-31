@@ -149,11 +149,11 @@ python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
 
 ;;
 
-6) echo "created by : Mas Kawer" | lolcat 
+6) echo "created by : Mr.yM GANS" | lolcat 
 exit
 ;;
 
 *) echo "sorry, pilihan yang kamu cari tidak tersedia" 
 esac 
 done 
-done
+clear
