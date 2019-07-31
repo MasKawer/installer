@@ -72,6 +72,7 @@ echo "--------------------------------------------------------------------------
 echo "Tools    : Installer Tools MasKawer        $white                                        "| lolcat
 echo "Credit   : MasKawer | CilacapCyberCrack    $white                                        "| lolcat
 echo "Github   : https://github.com/MasKawer     $white                                        "| lolcat
+echo "Version  : V1.2                            $white                                        "| lolcat
 echo "-----------------------------------------------------------------------------------------"
 ###########################################################
 # CTRL + C
@@ -231,13 +232,13 @@ pkg install python2                          | lolcat
 echo "-----------------------------" | lolcat
 pip2 install --upgrade pip                   | lolcat
 echo "-----------------------------" | lolcat
-pip2 install -r requirements.txt             | lolcat
+pip2 install -r requirements                 | lolcat
 echo "-----------------------------" | lolcat
 echo "${y} Installer dark-fb Mod MasKawer..."| lolcat
 echo "-----------------------------" | lolcat
-echo "${y} cd dark-fb"                       | lolcat
+echo "${y} cd darkfb"                        | lolcat
 echo "-----------------------------" | lolcat
-echo "${y} python2 DarkFB.py"                | lolcat
+echo "${y} python2 dark.py"                  | lolcat
 echo "-----------------------------" | lolcat
 echo "-----------------------------" | lolcat
 exit
