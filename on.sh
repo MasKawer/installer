@@ -93,7 +93,7 @@ lagi=1
 while [ $lagi -lt 7 ];
 do
 	echo""
-	echo $b "1. PORT FORDWADING${enda}"; 
+	echo $bu "1. PORT FORDWADING${enda}"; 
 	echo "-----------------------------" | lolcat
 	echo $r "2. Bash Encrypt${endc}";    
 	echo "-----------------------------" | lolcat
@@ -103,7 +103,7 @@ do
 	echo "-----------------------------" | lolcat
 	echo $c "5. Lazymux";
 	echo "-----------------------------" | lolcat
-	echo $c "6. Dark FB Mod MAS KAWER";
+	echo $cyan "6. Dark FB Mod MAS KAWER";
 	echo "-----------------------------" | lolcat
 	echo $g "7. Update";
 	echo "-----------------------------" | lolcat
