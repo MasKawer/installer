@@ -109,54 +109,89 @@ do
 
 # Localhost Online
 case $pil in
-1) 
-git clone https://github.com/MasKawer/online
-pkg install bash
-pkg install python
-pkg install python2
-pip2 install --upgrade pip
+1) git clone https://github.com/MasKawer/online
+echo "-----------------------------" | lolcat
+pkg install bash                                 | lolcat
+echo "-----------------------------" | lolcat
+pkg install python                               | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                              | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                       | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} Install PORT FORDWADING Tools..."  | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} cd localhost"                      | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} bash on.sh"                        | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
 exit
 
 ;;
 
 # Bash Encryptor
 2) git clone https://github.com/MasKawer/bash-encrypt
-pkg install bash
-pkg install python
-pkg install python2
-pip2 install --upgrade pip
+echo "-----------------------------" | lolcat
+pkg install bash                                | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                              | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                             | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                      | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} Install Bash Encrypt Tools..."    | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} cd Encript-Shell-Bash"            | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} bash encript.sh"                  | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
 exit
 
 ;;
 
 # Localhost Online
 3) git clone https://github.com/MasKawer/tombol-termux.git
-pkg install bash
-pkg install python
-pkg install python2
-pip2 install --upgrade pip
+echo "-----------------------------" | lolcat
+pkg install bash                               | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                             | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                            | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                     | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} Install Bash Encrypt Tools..."   | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} cd localhost"                    | lolcat
+echo "-----------------------------" | lolcat
 echo -e "${y} bash on.sh"                      | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
 exit
 exit
 ;;
 
 #Tools-X
 4) git clone https://github.com/Rajkumrdusad/Tool-X
-pkg install bash
-pkg install python
-pkg install python2
-pip2 install --upgrade pip
+echo "-----------------------------" | lolcat
+pkg install bash                              | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                            | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                           | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                    | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} Installer Tool-X..."               | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} cd Tool-X"                         | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} sh install.aex"                    | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
 exit
 
 ;;
@@ -164,13 +199,21 @@ exit
 #Lazymux
 
 5) git clone https://github.com/Gameye98/Lazymux
-pkg install bash
-pkg install python
-pkg install python2
-pip2 install --upgrade pip
+pkg install bash                             | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                           | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                          | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                   | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} Installer Lazymux..."             | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} cd Lazymux"                       | lolcat
+echo "-----------------------------" | lolcat
 echo "${y} python2 lazymux.py"               | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
 exit
 
 ;;
