@@ -250,30 +250,7 @@ exit
 
 ;;
 
-7) rm -rf installer                             | lolcat 
-sleep 2
-git clone https://github.com/MasKawer/installer | lolcat 
-pkg apt update && apt upgrade                | lolcat 
-echo "-----------------------------" | lolcat           
-pkg install python                           | lolcat
-echo "-----------------------------" | lolcat
-pkg install python2                          | lolcat
-echo "-----------------------------" | lolcat
-pip2 install --upgrade pip                   | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} Installer Sedang Update..."       | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} cd installer"                     | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} sh on.sh"                         | lolcat
-echo "-----------------------------" | lolcat
-echo "-----------------------------" | lolcat
-exit
-cd /data/data/com.termux/files/home/            | lolcat 
-
-;;
-
-8) echo "created by : MAS KAWER"             | lolcat 
+7) echo "created by : MAS KAWER"             | lolcat 
 exit
 ;;
 
