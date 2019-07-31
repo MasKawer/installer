@@ -89,7 +89,7 @@ ctrl_c() {
 }
 
 lagi=1
-while [ $lagi -lt 6 ];
+while [ $lagi -lt 7 ];
 do
 	echo""
 	echo $b "1. PORT FORDWADING${enda}"; 
@@ -102,14 +102,16 @@ do
 	echo "-----------------------------" | lolcat
 	echo $c "5. Lazymux";
 	echo "-----------------------------" | lolcat
-	echo $r "6. keluar${endc}";
+	echo $c "6. Dark FB Mod MAS KAWER";
+	echo "-----------------------------" | lolcat
+	echo $r "7. keluar${endc}";
 	echo ""
 	echo "╭─Mr.KAWER" |lolcat
 	read -p "╰─#" pil;
 
 # Localhost Online
 case $pil in
-1) git clone https://github.com/MasKawer/online
+1) git clone https://github.com/MasKawer/online  | lolcat
 echo "-----------------------------" | lolcat
 pkg install bash                                 | lolcat
 echo "-----------------------------" | lolcat
@@ -131,7 +133,51 @@ exit
 ;;
 
 # Bash Encryptor
-2) git clone https://github.com/MasKawer/bash-encrypt
+2) git clone https://github.com/MasKawer/bash-encrypt | lolcat
+echo "-----------------------------" | lolcat
+pkg install bash                                 | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                               | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                              | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                       | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} Install Bash Encrypt Tools..."     | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} cd Encript-Shell-Bash"             | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} bash encript.sh"                   | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
+exit
+
+;;
+
+# Localhost Online
+3) git clone https://github.com/MasKawer/tombol-termux.git | lolcat
+echo "-----------------------------" | lolcat
+pkg install bash                                 | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                               | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                              | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                       | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} Install Bash Encrypt Tools..."     | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} cd localhost"                      | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} bash on.sh"                        | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
+exit
+exit
+;;
+
+#Tools-X
+4) git clone https://github.com/Rajkumrdusad/Tool-X | lolcat 
 echo "-----------------------------" | lolcat
 pkg install bash                                | lolcat 
 echo "-----------------------------" | lolcat
@@ -141,55 +187,11 @@ pkg install python2                             | lolcat
 echo "-----------------------------" | lolcat
 pip2 install --upgrade pip                      | lolcat
 echo "-----------------------------" | lolcat
-echo -e "${y} Install Bash Encrypt Tools..."    | lolcat
+echo "${y} Installer Tool-X..."                 | lolcat
 echo "-----------------------------" | lolcat
-echo -e "${y} cd Encript-Shell-Bash"            | lolcat
+echo "${y} cd Tool-X"                           | lolcat
 echo "-----------------------------" | lolcat
-echo -e "${y} bash encript.sh"                  | lolcat
-echo "-----------------------------" | lolcat
-echo "-----------------------------" | lolcat
-exit
-
-;;
-
-# Localhost Online
-3) git clone https://github.com/MasKawer/tombol-termux.git
-echo "-----------------------------" | lolcat
-pkg install bash                               | lolcat 
-echo "-----------------------------" | lolcat
-pkg install python                             | lolcat
-echo "-----------------------------" | lolcat
-pkg install python2                            | lolcat
-echo "-----------------------------" | lolcat
-pip2 install --upgrade pip                     | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} Install Bash Encrypt Tools..."   | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} cd localhost"                    | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} bash on.sh"                      | lolcat
-echo "-----------------------------" | lolcat
-echo "-----------------------------" | lolcat
-exit
-exit
-;;
-
-#Tools-X
-4) git clone https://github.com/Rajkumrdusad/Tool-X
-echo "-----------------------------" | lolcat
-pkg install bash                              | lolcat 
-echo "-----------------------------" | lolcat
-pkg install python                            | lolcat
-echo "-----------------------------" | lolcat
-pkg install python2                           | lolcat
-echo "-----------------------------" | lolcat
-pip2 install --upgrade pip                    | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} Installer Tool-X..."               | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} cd Tool-X"                         | lolcat
-echo "-----------------------------" | lolcat
-echo "${y} sh install.aex"                    | lolcat
+echo "${y} sh install.aex"                      | lolcat
 echo "-----------------------------" | lolcat
 echo "-----------------------------" | lolcat
 exit
@@ -198,7 +200,7 @@ exit
 
 #Lazymux
 
-5) git clone https://github.com/Gameye98/Lazymux
+5) git clone https://github.com/Gameye98/Lazymux | lolcat 
 pkg install bash                             | lolcat 
 echo "-----------------------------" | lolcat
 pkg install python                           | lolcat
@@ -218,7 +220,31 @@ exit
 
 ;;
 
-6) echo "created by : MAS KAWER"             | lolcat 
+#DARK FB MOD MASKAWER
+
+6) git clone https://github.com/MasKawer/dark-fb | lolcat 
+pkg install bash                             | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                           | lolcat
+echo "-----------------------------" | lolcat
+pkg install python2                          | lolcat
+echo "-----------------------------" | lolcat
+pip2 install --upgrade pip                   | lolcat
+echo "-----------------------------" | lolcat
+pip2 install -r requirements.txt             | lolcat
+echo "-----------------------------" | lolcat
+echo "${y} Installer dark-fb Mod MasKawer..."| lolcat
+echo "-----------------------------" | lolcat
+echo "${y} cd dark-fb"                       | lolcat
+echo "-----------------------------" | lolcat
+echo "${y} python2 DarkFB.py"                | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
+exit
+
+;;
+
+7) echo "created by : MAS KAWER"             | lolcat 
 exit
 ;;
 
