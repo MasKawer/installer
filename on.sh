@@ -37,6 +37,18 @@ dependencies() {
 
 
 stop() {
+	pkg install bash
+	sleep 1
+	pkg install python
+	sleep 1
+	pkg install python2
+	sleep 1
+	pkg install pip
+	sleep 1
+	pip2 install --upgrade pip
+	sleep 1
+	clear
+}
 
 #Variable Warna
 b="\033[1m"
@@ -104,7 +116,7 @@ do
 
 # Localhost Online
 case $pil in
-1) git clone https://github.com/MasKawer/online
+	1) git clone https://github.com/MasKawer/online
 pkg install bash
 pkg install python
 pkg install python2
@@ -189,22 +201,20 @@ esac
 done
 done
 
-}
-
 banner() {
 
-printf "\e[1;93m  _______ _______ _______    _       _______         _______ _______ \e[0m\n"
-printf "\e[1;93m (       |  ___  |  ____ \  | \    /(  ___  )\     /(  ____ (  ____ )\e[0m\n"
-printf "\e[1;93m | () () | (   ) | (    \/  |  \  / / (   ) | )   ( | (    \/ (    )|\e[0m\n"
-printf "\e[1;93m | || || | (___) | (_____   |  (_/ /| (___) | | _ | | (__   | (____)|\e[0m\n"
-printf "\e[1;93m | |(_)| |  ___  (_____  )  |   _ ( |  ___  | |( )| |  __)  |     __)\e[0m\n"
-printf "\e[1;93m | |   | | (   ) |     ) |  |  ( \ \| (   ) | || || | (     | (\ (   2019\e[0m\n"
-printf "\e[1;93m | )   ( | )   ( /\____) |  |  /  \ \ )   ( | () () | (____/\ ) \ \__\e[0m\n"
-printf "\e[1;93m |/     \|/      \_______)  |_/    \//     \(_______|_______//   \__/v1.0\e[0m\n"
-                                                                    
-printf "\n"
-printf "\e[1;93m :::\e[0m\e[1;77m Thanks For: @cilacapcybercrack\e[0m\n"
-printf "\e[1;93m :::\e[0m\e[1;77m Coded by: @maskawer\e[0m\n"
+	printf "\e[1;93m  _______ _______ _______    _       _______         _______ _______ \e[0m\n"
+	printf "\e[1;93m (       |  ___  |  ____ \  | \    /(  ___  )\     /(  ____ (  ____ )\e[0m\n"
+	printf "\e[1;93m | () () | (   ) | (    \/  |  \  / / (   ) | )   ( | (    \/ (    )|\e[0m\n"
+	printf "\e[1;93m | || || | (___) | (_____   |  (_/ /| (___) | | _ | | (__   | (____)|\e[0m\n"
+	printf "\e[1;93m | |(_)| |  ___  (_____  )  |   _ ( |  ___  | |( )| |  __)  |     __)\e[0m\n"
+	printf "\e[1;93m | |   | | (   ) |     ) |  |  ( \ \| (   ) | || || | (     | (\ (   2019\e[0m\n"
+	printf "\e[1;93m | )   ( | )   ( /\____) |  |  /  \ \ )   ( | () () | (____/\ ) \ \__\e[0m\n"
+	printf "\e[1;93m |/     \|/      \_______)  |_/    \//     \(_______|_______//   \__/v1.0\e[0m\n"
+
+	printf "\n"
+	printf "\e[1;93m :::\e[0m\e[1;77m Thanks For: @cilacapcybercrack\e[0m\n"
+	printf "\e[1;93m :::\e[0m\e[1;77m Coded by: @maskawer\e[0m\n"
 
 }
 banner
