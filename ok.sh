@@ -313,7 +313,7 @@ exit
 ;;
 
 
-8) git https://github.com/TUANB4DUT/TOOLSINSTALLERv4 | lolcat 
+8) git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv4 | lolcat 
 pkg install bash                             | lolcat 
 echo "-----------------------------" | lolcat
 pkg install python                           | lolcat
@@ -366,7 +366,7 @@ git clone https://github.com/masbokir/tombol-termux.git  | lolcat
 sleep 1
 git clone https://github.com/Gameye98/Lazymux | lolcat
 sleep 1
-git https://github.com/TUANB4DUT/TOOLSINSTALLERv4 | lolcat 
+git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv4 | lolcat 
 echo "${y} Installasi 2 Sedang Berjalan"| lolcat
 echo "-----------------------------" | lolcat
 
